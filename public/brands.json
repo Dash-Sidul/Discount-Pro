@@ -1,0 +1,164 @@
+[
+  {
+    "_id": "dp001",
+    "brand_name": "Nike",
+    "rating": 4.6,
+    "description": "Global sportswear giant offering footwear, apparel and accessories for every kind of athlete.",
+    "brand_logo": "https://i.ibb.co.com/RWHPdpK/nike-Logo.png",
+    "coupons": [
+      {
+        "coupon-code": "NIKE25",
+        "description": "Flat 25% off on full-price sneakers",
+        "expiry-date": "2026-07-15",
+        "condition": "Minimum purchase of ৳5000",
+        "cupon_type": "percentage"
+      },
+      {
+        "coupon-code": "NIKEFREESHIP",
+        "description": "Free shipping on all orders",
+        "expiry-date": "2026-08-01",
+        "condition": "No minimum purchase",
+        "cupon_type": "free-shipping"
+      }
+    ],
+    "shop-Link": "https://www.nike.com",
+    "category": "Fashion",
+    "isSaleOn": true
+  },
+  {
+    "_id": "dp002",
+    "brand_name": "Adidas",
+    "rating": 4.5,
+    "description": "Iconic three-stripe brand known for performance gear and street-style sneakers.",
+    "brand_logo": "https://ui-avatars.com/api/?name=Adidas&background=0F3D2E&color=fff&size=128&bold=true&format=png",
+    "coupons": [
+      {
+        "coupon-code": "ADI30",
+        "description": "30% off on clearance items",
+        "expiry-date": "2026-07-10",
+        "condition": "Applicable on clearance section only",
+        "cupon_type": "percentage"
+      }
+    ],
+    "shop-Link": "https://www.adidas.com",
+    "category": "Fashion",
+    "isSaleOn": true
+  },
+  {
+    "_id": "dp003",
+    "brand_name": "Daraz",
+    "rating": 4.2,
+    "description": "South Asia's leading online marketplace for electronics, fashion and daily essentials.",
+    "brand_logo": "https://i.ibb.co.com/C3x1WCTR/daraz-Logo.png",
+    "coupons": [
+      {
+        "coupon-code": "DARAZ100",
+        "description": "Flat ৳100 off on orders above ৳1000",
+        "expiry-date": "2026-06-30",
+        "condition": "Minimum order value ৳1000",
+        "cupon_type": "flat"
+      },
+      {
+        "coupon-code": "DARAZMEGA",
+        "description": "Up to 70% off during Mega Sale",
+        "expiry-date": "2026-07-05",
+        "condition": "Valid on selected categories",
+        "cupon_type": "percentage"
+      }
+    ],
+    "shop-Link": "https://www.daraz.com.bd",
+    "category": "Electronics",
+    "isSaleOn": true
+  },
+  {
+    "_id": "dp004",
+    "brand_name": "Foodpanda",
+    "rating": 4.0,
+    "description": "On-demand food delivery platform connecting users with local restaurants.",
+    "brand_logo": "https://i.ibb.co.com/Y4mGKXqy/foodpanda-logo.png",
+    "coupons": [
+      {
+        "coupon-code": "PANDA50",
+        "description": "50% off on your first order",
+        "expiry-date": "2026-09-01",
+        "condition": "Valid for new users only",
+        "cupon_type": "percentage"
+      }
+    ],
+    "shop-Link": "https://www.foodpanda.com.bd",
+    "category": "Food & Delivery",
+    "isSaleOn": true
+  },
+  {
+    "_id": "dp005",
+    "brand_name": "Samsung",
+    "rating": 4.4,
+    "description": "Consumer electronics powerhouse offering smartphones, TVs and home appliances.",
+    "brand_logo": "https://i.ibb.co.com/v6jGXDp1/samsung-logo.webp",
+    "coupons": [
+      {
+        "coupon-code": "SAMSUNG10",
+        "description": "10% off on Galaxy smartphones",
+        "expiry-date": "2026-08-20",
+        "condition": "Applicable on Galaxy S series only",
+        "cupon_type": "percentage"
+      }
+    ],
+    "shop-Link": "https://www.samsung.com",
+    "category": "Electronics",
+    "isSaleOn": false
+  },
+  {
+    "_id": "dp006",
+    "brand_name": "Zara",
+    "rating": 4.3,
+    "description": "Spanish fast-fashion retailer offering trend-driven clothing for men, women and kids.",
+    "brand_logo": "https://i.ibb.co.com/tTD6cWY4/zara-Logo.jpg",
+    "coupons": [
+      {
+        "coupon-code": "ZARASUMMER",
+        "description": "Flat 20% off on summer collection",
+        "expiry-date": "2026-07-31",
+        "condition": "Valid on new arrivals only",
+        "cupon_type": "percentage"
+      }
+    ],
+    "shop-Link": "https://www.zara.com",
+    "category": "Fashion",
+    "isSaleOn": true
+  },
+  {
+    "_id": "dp007",
+    "brand_name": "IKEA",
+    "rating": 4.5,
+    "description": "Swedish furniture giant known for affordable, flat-pack home furnishing solutions.",
+    "brand_logo": "https://i.ibb.co.com/5WmTK3S8/ikea-N.png",
+    "coupons": [
+      {
+        "coupon-code": "IKEAHOME",
+        "description": "Flat ৳500 off on furniture above ৳5000",
+        "expiry-date": "2026-08-10",
+        "condition": "Minimum purchase of ৳5000",
+        "cupon_type": "flat"
+      }
+    ],
+    "shop-Link": "https://www.ikea.com",
+    "category": "Home & Furniture",
+    "isSaleOn": false
+  },
+  {
+    "_id": "dp008",
+    "brand_name": "Sephora",
+    "rating": 4.6,
+    "description": "Beauty retailer offering skincare, makeup and fragrance from top global brands.",
+    "brand_logo": "https://i.ibb.co.com/v6FGwmfv/sephora-Logo.png",
+    "coupons": [
+      {
+        "coupon-code": "SEPHORA15",
+        "description": "15% off on first online purchase",
+        "expiry-date": "2026-07-25",
+        "condition": "Valid for new customers only",
+        "cupon_type": "percentage"
+      }]
+  }
+    ]

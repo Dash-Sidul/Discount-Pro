@@ -1,0 +1,410 @@
+[
+  {
+    "_id": "dp001",
+    "brand_name": "Nike",
+    "rating": 4.6,
+    "description": "Global sportswear giant offering footwear, apparel and accessories for every kind of athlete.",
+    "brand_logo": "https://ui-avatars.com/api/?name=Nike&background=FF5A3C&color=fff&size=128&bold=true&format=png",
+    "coupons": [
+      {
+        "coupon-code": "NIKE25",
+        "description": "Flat 25% off on full-price sneakers",
+        "expiry-date": "2026-07-15",
+        "condition": "Minimum purchase of ৳5000",
+        "coupon_type": "percentage"
+      },
+      {
+        "coupon-code": "NIKEFREESHIP",
+        "description": "Free shipping on all orders",
+        "expiry-date": "2026-08-01",
+        "condition": "No minimum purchase",
+        "coupon_type": "free-shipping"
+      }
+    ],
+    "shop-Link": "https://www.nike.com",
+    "category": "Fashion",
+    "isSaleOn": true
+  },
+  {
+    "_id": "dp002",
+    "brand_name": "Adidas",
+    "rating": 4.5,
+    "description": "Iconic three-stripe brand known for performance gear and street-style sneakers.",
+    "brand_logo": "https://ui-avatars.com/api/?name=Adidas&background=0F3D2E&color=fff&size=128&bold=true&format=png",
+    "coupons": [
+      {
+        "coupon-code": "ADI30",
+        "description": "30% off on clearance items",
+        "expiry-date": "2026-07-10",
+        "condition": "Applicable on clearance section only",
+        "coupon_type": "percentage"
+      }
+    ],
+    "shop-Link": "https://www.adidas.com",
+    "category": "Fashion",
+    "isSaleOn": true
+  },
+  {
+    "_id": "dp003",
+    "brand_name": "Daraz",
+    "rating": 4.2,
+    "description": "South Asia's leading online marketplace for electronics, fashion and daily essentials.",
+    "brand_logo": "https://ui-avatars.com/api/?name=Daraz&background=2B2250&color=fff&size=128&bold=true&format=png",
+    "coupons": [
+      {
+        "coupon-code": "DARAZ100",
+        "description": "Flat ৳100 off on orders above ৳1000",
+        "expiry-date": "2026-06-30",
+        "condition": "Minimum order value ৳1000",
+        "coupon_type": "flat"
+      },
+      {
+        "coupon-code": "DARAZMEGA",
+        "description": "Up to 70% off during Mega Sale",
+        "expiry-date": "2026-07-05",
+        "condition": "Valid on selected categories",
+        "coupon_type": "percentage"
+      }
+    ],
+    "shop-Link": "https://www.daraz.com.bd",
+    "category": "Electronics",
+    "isSaleOn": true
+  },
+  {
+    "_id": "dp004",
+    "brand_name": "Foodpanda",
+    "rating": 4.0,
+    "description": "On-demand food delivery platform connecting users with local restaurants.",
+    "brand_logo": "https://ui-avatars.com/api/?name=Foodpanda&background=185FA5&color=fff&size=128&bold=true&format=png",
+    "coupons": [
+      {
+        "coupon-code": "PANDA50",
+        "description": "50% off on your first order",
+        "expiry-date": "2026-09-01",
+        "condition": "Valid for new users only",
+        "coupon_type": "percentage"
+      }
+    ],
+    "shop-Link": "https://www.foodpanda.com.bd",
+    "category": "Food & Delivery",
+    "isSaleOn": true
+  },
+  {
+    "_id": "dp005",
+    "brand_name": "Samsung",
+    "rating": 4.4,
+    "description": "Consumer electronics powerhouse offering smartphones, TVs and home appliances.",
+    "brand_logo": "https://ui-avatars.com/api/?name=Samsung&background=D85A30&color=fff&size=128&bold=true&format=png",
+    "coupons": [
+      {
+        "coupon-code": "SAMSUNG10",
+        "description": "10% off on Galaxy smartphones",
+        "expiry-date": "2026-08-20",
+        "condition": "Applicable on Galaxy S series only",
+        "coupon_type": "percentage"
+      }
+    ],
+    "shop-Link": "https://www.samsung.com",
+    "category": "Electronics",
+    "isSaleOn": false
+  },
+  {
+    "_id": "dp006",
+    "brand_name": "Zara",
+    "rating": 4.3,
+    "description": "Spanish fast-fashion retailer offering trend-driven clothing for men, women and kids.",
+    "brand_logo": "https://ui-avatars.com/api/?name=Zara&background=3B6D11&color=fff&size=128&bold=true&format=png",
+    "coupons": [
+      {
+        "coupon-code": "ZARASUMMER",
+        "description": "Flat 20% off on summer collection",
+        "expiry-date": "2026-07-31",
+        "condition": "Valid on new arrivals only",
+        "coupon_type": "percentage"
+      }
+    ],
+    "shop-Link": "https://www.zara.com",
+    "category": "Fashion",
+    "isSaleOn": true
+  },
+  {
+    "_id": "dp007",
+    "brand_name": "IKEA",
+    "rating": 4.5,
+    "description": "Swedish furniture giant known for affordable, flat-pack home furnishing solutions.",
+    "brand_logo": "https://ui-avatars.com/api/?name=IKEA&background=993C1D&color=fff&size=128&bold=true&format=png",
+    "coupons": [
+      {
+        "coupon-code": "IKEAHOME",
+        "description": "Flat ৳500 off on furniture above ৳5000",
+        "expiry-date": "2026-08-10",
+        "condition": "Minimum purchase of ৳5000",
+        "coupon_type": "flat"
+      }
+    ],
+    "shop-Link": "https://www.ikea.com",
+    "category": "Home & Furniture",
+    "isSaleOn": false
+  },
+  {
+    "_id": "dp008",
+    "brand_name": "Sephora",
+    "rating": 4.6,
+    "description": "Beauty retailer offering skincare, makeup and fragrance from top global brands.",
+    "brand_logo": "https://ui-avatars.com/api/?name=Sephora&background=0C447C&color=fff&size=128&bold=true&format=png",
+    "coupons": [
+      {
+        "coupon-code": "SEPHORA15",
+        "description": "15% off on first online purchase",
+        "expiry-date": "2026-07-25",
+        "condition": "Valid for new customers only",
+        "coupon_type": "percentage"
+      },
+      {
+        "coupon-code": "BEAUTYBOGO",
+        "description": "Buy one get one free on selected lipsticks",
+        "expiry-date": "2026-07-18",
+        "condition": "Applicable on selected SKUs",
+        "coupon_type": "bogo"
+      }
+    ],
+    "shop-Link": "https://www.sephora.com",
+    "category": "Beauty",
+    "isSaleOn": true
+  },
+  {
+    "_id": "dp009",
+    "brand_name": "Booking.com",
+    "rating": 4.4,
+    "description": "Online travel agency offering hotel bookings, flights and vacation rentals worldwide.",
+    "brand_logo": "https://ui-avatars.com/api/?name=Booking.com&background=633806&color=fff&size=128&bold=true&format=png",
+    "coupons": [
+      {
+        "coupon-code": "STAY20",
+        "description": "20% off on hotel bookings",
+        "expiry-date": "2026-09-15",
+        "condition": "Valid on bookings made 7 days in advance",
+        "coupon_type": "percentage"
+      }
+    ],
+    "shop-Link": "https://www.booking.com",
+    "category": "Travel",
+    "isSaleOn": true
+  },
+  {
+    "_id": "dp010",
+    "brand_name": "Uber",
+    "rating": 4.1,
+    "description": "Ride-hailing and mobility platform offering on-demand transportation services.",
+    "brand_logo": "https://ui-avatars.com/api/?name=Uber&background=27500A&color=fff&size=128&bold=true&format=png",
+    "coupons": [
+      {
+        "coupon-code": "UBERFIRST",
+        "description": "Flat ৳150 off on your first ride",
+        "expiry-date": "2026-08-05",
+        "condition": "Valid for new riders only",
+        "coupon_type": "flat"
+      }
+    ],
+    "shop-Link": "https://www.uber.com",
+    "category": "Travel",
+    "isSaleOn": false
+  },
+  {
+    "_id": "dp011",
+    "brand_name": "Domino's Pizza",
+    "rating": 4.2,
+    "description": "International pizza delivery chain known for fast delivery and customizable menus.",
+    "brand_logo": "https://ui-avatars.com/api/?name=Domino's+Pizza&background=712B13&color=fff&size=128&bold=true&format=png",
+    "coupons": [
+      {
+        "coupon-code": "DOMINO2FOR1",
+        "description": "Buy one large pizza, get one free",
+        "expiry-date": "2026-07-20",
+        "condition": "Valid only on large pizzas, dine-in excluded",
+        "coupon_type": "bogo"
+      }
+    ],
+    "shop-Link": "https://www.dominos.com",
+    "category": "Food & Delivery",
+    "isSaleOn": true
+  },
+  {
+    "_id": "dp012",
+    "brand_name": "Lenovo",
+    "rating": 4.3,
+    "description": "Global technology brand offering laptops, desktops and enterprise hardware.",
+    "brand_logo": "https://ui-avatars.com/api/?name=Lenovo&background=A32D2D&color=fff&size=128&bold=true&format=png",
+    "coupons": [
+      {
+        "coupon-code": "LENOVO12",
+        "description": "12% off on ThinkPad series",
+        "expiry-date": "2026-08-30",
+        "condition": "Applicable on ThinkPad models only",
+        "coupon_type": "percentage"
+      }
+    ],
+    "shop-Link": "https://www.lenovo.com",
+    "category": "Electronics",
+    "isSaleOn": false
+  },
+  {
+    "_id": "dp013",
+    "brand_name": "Puma",
+    "rating": 4.3,
+    "description": "Athletic apparel and footwear brand blending performance with street style.",
+    "brand_logo": "https://ui-avatars.com/api/?name=Puma&background=533FB1&color=fff&size=128&bold=true&format=png",
+    "coupons": [
+      {
+        "coupon-code": "PUMA40",
+        "description": "Flat 40% off on running shoes",
+        "expiry-date": "2026-07-22",
+        "condition": "Applicable on running category only",
+        "coupon_type": "percentage"
+      }
+    ],
+    "shop-Link": "https://www.puma.com",
+    "category": "Fashion",
+    "isSaleOn": true
+  },
+  {
+    "_id": "dp014",
+    "brand_name": "Levi's",
+    "rating": 4.4,
+    "description": "Denim pioneer offering classic and modern jeans, jackets and casual wear.",
+    "brand_logo": "https://ui-avatars.com/api/?name=Levi's&background=0E7C7B&color=fff&size=128&bold=true&format=png",
+    "coupons": [
+      {
+        "coupon-code": "LEVIDENIM",
+        "description": "Flat ৳800 off on denim jackets",
+        "expiry-date": "2026-08-12",
+        "condition": "Minimum purchase of two items",
+        "coupon_type": "flat"
+      }
+    ],
+    "shop-Link": "https://www.levi.com",
+    "category": "Fashion",
+    "isSaleOn": false
+  },
+  {
+    "_id": "dp015",
+    "brand_name": "Bata",
+    "rating": 4.0,
+    "description": "Long-standing footwear brand offering affordable shoes for the whole family.",
+    "brand_logo": "https://ui-avatars.com/api/?name=Bata&background=B45309&color=fff&size=128&bold=true&format=png",
+    "coupons": [
+      {
+        "coupon-code": "BATA20",
+        "description": "20% off on school shoes",
+        "expiry-date": "2026-07-28",
+        "condition": "Valid on kids' footwear only",
+        "coupon_type": "percentage"
+      }
+    ],
+    "shop-Link": "https://www.bata.com.bd",
+    "category": "Fashion",
+    "isSaleOn": true
+  },
+  {
+    "_id": "dp016",
+    "brand_name": "Aarong",
+    "rating": 4.5,
+    "description": "Bangladeshi lifestyle brand offering handcrafted fashion, home decor and accessories.",
+    "brand_logo": "https://ui-avatars.com/api/?name=Aarong&background=1D4ED8&color=fff&size=128&bold=true&format=png",
+    "coupons": [
+      {
+        "coupon-code": "AARONGEID",
+        "description": "Flat 15% off on festive collection",
+        "expiry-date": "2026-07-08",
+        "condition": "Valid on selected outlets only",
+        "coupon_type": "percentage"
+      }
+    ],
+    "shop-Link": "https://www.aarong.com",
+    "category": "Fashion",
+    "isSaleOn": true
+  },
+  {
+    "_id": "dp017",
+    "brand_name": "Shwapno",
+    "rating": 3.9,
+    "description": "Leading Bangladeshi supermarket chain offering groceries and household essentials.",
+    "brand_logo": "https://ui-avatars.com/api/?name=Shwapno&background=B91C1C&color=fff&size=128&bold=true&format=png",
+    "coupons": [
+      {
+        "coupon-code": "SHWAPNO5",
+        "description": "Flat 5% off on grocery bills above ৳2000",
+        "expiry-date": "2026-08-15",
+        "condition": "Minimum bill amount ৳2000",
+        "coupon_type": "percentage"
+      }
+    ],
+    "shop-Link": "https://www.shwapno.com",
+    "category": "Grocery",
+    "isSaleOn": false
+  },
+  {
+    "_id": "dp018",
+    "brand_name": "Pathao",
+    "rating": 4.1,
+    "description": "Bangladeshi super-app offering ride-sharing, food delivery and courier services.",
+    "brand_logo": "https://ui-avatars.com/api/?name=Pathao&background=166534&color=fff&size=128&bold=true&format=png",
+    "coupons": [
+      {
+        "coupon-code": "PATHAOFOOD",
+        "description": "Flat ৳80 off on food orders above ৳400",
+        "expiry-date": "2026-07-14",
+        "condition": "Minimum order value ৳400",
+        "coupon_type": "flat"
+      },
+      {
+        "coupon-code": "PATHAORIDE",
+        "description": "20% off on ride bookings",
+        "expiry-date": "2026-07-31",
+        "condition": "Valid for rides under 10 km",
+        "coupon_type": "percentage"
+      }
+    ],
+    "shop-Link": "https://pathao.com",
+    "category": "Travel",
+    "isSaleOn": true
+  },
+  {
+    "_id": "dp019",
+    "brand_name": "Apple Store",
+    "rating": 4.7,
+    "description": "Official retailer for iPhones, MacBooks, iPads and Apple accessories.",
+    "brand_logo": "https://ui-avatars.com/api/?name=Apple+Store&background=6D28D9&color=fff&size=128&bold=true&format=png",
+    "coupons": [
+      {
+        "coupon-code": "APPLESTUDENT",
+        "description": "Education pricing with up to 8% off",
+        "expiry-date": "2026-09-30",
+        "condition": "Valid for verified students only",
+        "coupon_type": "percentage"
+      }
+    ],
+    "shop-Link": "https://www.apple.com",
+    "category": "Electronics",
+    "isSaleOn": false
+  },
+  {
+    "_id": "dp020",
+    "brand_name": "KFC",
+    "rating": 4.0,
+    "description": "Global fried chicken chain known for its bucket meals and signature recipes.",
+    "brand_logo": "https://ui-avatars.com/api/?name=KFC&background=C2410C&color=fff&size=128&bold=true&format=png",
+    "coupons": [
+      {
+        "coupon-code": "KFCBUCKET",
+        "description": "Flat ৳200 off on family bucket meals",
+        "expiry-date": "2026-07-19",
+        "condition": "Minimum order of one family bucket",
+        "coupon_type": "flat"
+      }
+    ],
+    "shop-Link": "https://www.kfcbd.com",
+    "category": "Food & Delivery",
+    "isSaleOn": true
+  }
+]
