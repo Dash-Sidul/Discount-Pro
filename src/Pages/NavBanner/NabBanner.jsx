@@ -3,6 +3,7 @@ import Banner from "../../Components/Banner/Banner";
 import BannerSlider from "../../Components/BannerSlider/BannerSlider";
 import Home from "../Home/Home";
 import TopBrands from "../../Components/TopBrands/TopBrands";
+import BrandOnSales from "../../Components/BrandOnSales/BrandOnSales";
 
 const NabBanner = () => {
   const brands = useLoaderData();
@@ -19,6 +20,7 @@ const NabBanner = () => {
       </div>
         <TopBrands brands={brands}></TopBrands>
       <Home brands={brands}></Home>
+      <BrandOnSales brands= {brands}></BrandOnSales>
     
     </div>
   );

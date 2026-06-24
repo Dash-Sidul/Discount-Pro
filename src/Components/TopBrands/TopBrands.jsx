@@ -7,11 +7,13 @@ const TopBrands = ({ brands }) => {
     // console.log(marquee);
     // console.log(brands);
   return (
-    <section className="py-16">
-      <div className="max-w-7xl mx-auto px-4">
+    <section className="py-16 bg-[linear-gradient(90deg,_#FDBB2D_0%,_#22C1C3_100%)]">
+      <div className="max-w-7xl mx-auto px-4 my-10">
+
         
-        <div className="text-center mb-10">
-          <h2 className="text-4xl font-bold">
+        
+        <div className="text-center mb-10 bg-[linear-gradient(90deg,_#FDBB2D_0%,_#22C1C3_100%)]">
+          <h2 className="text-4xl font-bold text-white">
             Top Brands
           </h2>
 

@@ -6,6 +6,7 @@ import Login from "../Pages/Login/Login";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import NabBanner from "../Pages/NavBanner/NabBanner";
 import Loader from "../Components/Loader/Loader";
+import BrandDetails from "../Pages/BrandDetails/BrandDetails";
 
 export const router = createBrowserRouter([
     {
@@ -14,7 +15,7 @@ export const router = createBrowserRouter([
         children:[
             {
                 path: '/',
-                loader: () => fetch('./brands.json'),
+                loader: () => fetch('./AllBrands.json'),
                 // HydrateFallback: <Loader></Loader> ,
                 element: <NabBanner></NabBanner>
             },
@@ -22,6 +23,11 @@ export const router = createBrowserRouter([
                 path: "/brands",
                 loader: () => fetch('./AllBrands.json'),
                 element: <Brands></Brands>
+            },
+            {
+                path: "/brand/:id",
+                loader: () => fetch('/AllBrands.json'),
+                element: <BrandDetails></BrandDetails>
             },
             {
                 path:'/login',
