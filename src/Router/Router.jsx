@@ -7,6 +7,9 @@ import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import NabBanner from "../Pages/NavBanner/NabBanner";
 import Loader from "../Components/Loader/Loader";
 import BrandDetails from "../Pages/BrandDetails/BrandDetails";
+import Register from "../Pages/Register/Register";
+import MyProfile from "../Pages/MyProfile/MyProfile";
+import PrivateRout from "../Components/PrivateRout/PrivateRout";
 
 export const router = createBrowserRouter([
     {
@@ -15,19 +18,20 @@ export const router = createBrowserRouter([
         children:[
             {
                 path: '/',
-                loader: () => fetch('./AllBrands.json'),
+                loader: () => fetch('/AllBrands.json'),
                 // HydrateFallback: <Loader></Loader> ,
-                element: <NabBanner></NabBanner>
+                element: <NabBanner></NabBanner>,
+                Loader: <Loader></Loader>
             },
             {
                 path: "/brands",
-                loader: () => fetch('./AllBrands.json'),
+                loader: () => fetch('/AllBrands.json'),
                 element: <Brands></Brands>
             },
             {
                 path: "/brand/:id",
                 loader: () => fetch('/AllBrands.json'),
-                element: <BrandDetails></BrandDetails>
+                element: <PrivateRout><BrandDetails></BrandDetails></PrivateRout>
             },
             {
                 path:'/login',
@@ -36,6 +40,14 @@ export const router = createBrowserRouter([
             {
                 path:'*',
                 element: <ErrorPage></ErrorPage>
+            },
+            {
+                path:'/register',
+                element: <Register></Register>
+            },
+            {
+                path: '/profile',
+                element: <MyProfile></MyProfile>
             }
         ]
     }

@@ -3,6 +3,7 @@ import MarqueeModule from "react-fast-marquee";
 import { Link } from "react-router";
 
 const TopBrands = ({ brands }) => {
+  console.log(brands);
     const Marquee = MarqueeModule.default || MarqueeModule
     // console.log(marquee);
     // console.log(brands);
@@ -52,7 +53,8 @@ const TopBrands = ({ brands }) => {
           {brands.map((brand) => (
             <Link
               key={brand._id}
-              to={`/brands/${brand._id}`}
+              // to={`/brands/${brand._id}`}
+              to={brand.shop_Link}
               className="flex gap-500"
             >
               <div className="bg-white w-40 flex flex-col justify-center items-center gap-2 rounded-xl shadow-md p-4 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">

@@ -7,7 +7,8 @@ import BrandOnSales from "../../Components/BrandOnSales/BrandOnSales";
 
 const NabBanner = () => {
   const brands = useLoaderData();
-  console.log(brands);
+  const arr = Array.isArray(brands)
+  console.log(arr);
  
   return (
     <div className="mt-20">

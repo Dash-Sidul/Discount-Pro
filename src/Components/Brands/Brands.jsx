@@ -19,17 +19,21 @@
 import { useState } from "react";
 import BrandCard from "../../Pages/BrandCard/BrandCard";
 import { useLoaderData } from "react-router";
+import ErrorPage from "../../Pages/ErrorPage/ErrorPage";
+import SearchError from "../../Pages/SearchError/SearchError";
 
 
 const Brands = () => {
   const [search, setSearch] = useState("");
   const brands = useLoaderData()
+  console.log(brands);
 
   const filteredBrands = brands.filter((brand) =>
     brand.brand_name
       .toLowerCase()
       .includes(search.toLowerCase())
   );
+ 
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-10">
@@ -47,9 +51,13 @@ const Brands = () => {
           onChange={(e) => setSearch(e.target.value)}
         />
       </div>
+      {
+          filteredBrands.length === 0 && <SearchError></SearchError>
+        }
 
       {/* Cards */}
       <div className="space-y-6 grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+        
         {filteredBrands.map((brand) => (
           <BrandCard
             key={brand._id}

@@ -5,8 +5,15 @@ import { NavLink } from "react-router";
 // import BannerSlider from "../BannerSlider/BannerSlider";
 import NavbarLinks from "../NavbarLinks/NavbarLinks";
 import Login from "../../Pages/Login/Login";
+import { use } from "react";
+import { AuthContext } from "../../Context/AuthContext";
 
 const Header = () => {
+  const {user, logOut} = use(AuthContext)
+  const handleLogOut = () =>{
+    logOut()
+  }
+
   return (
     <div className="flex justify-between items-center mt-4">
       <div>
@@ -18,9 +25,18 @@ const Header = () => {
       <div>
        <NavbarLinks></NavbarLinks>
       </div>
-
-      <div>
-        <NavLink to='/login' >Login</NavLink>
+        
+          
+        
+      <div className="flex justify-center items-center gap-2">
+        {
+            user && <img src={user.photoURL} alt="" className="w-10 h-10 rounded-full" />
+          }
+        {
+          user ? <button onClick={handleLogOut} className="btn bg-amber-500">Log Out</button> :
+          <NavLink to='/login' >Login</NavLink>
+        }
+        
       </div>
     </div>
   );

@@ -152,14 +152,14 @@ const BrandCard = ({ brand }) => {
   } = brand;
 
   return (
-    <div className="bg-white flex flex-1 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 p-5 border border-gray-100">
+    <div className="bg-amber-50 flex flex-1 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 p-5 border border-gray-100">
       <div className="flex flex-col  items-center gap-5">
         {/* Logo */}
         <div className="shrink-0">
           <img
             src={brand_logo}
             alt={brand_name}
-            className="w-24 h-24 rounded-xl object-cover "
+            className="w-60 card shadow-2xl h-40 rounded-xl object-cover "
           />
         </div>
 

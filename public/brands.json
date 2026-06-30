@@ -21,7 +21,7 @@
         "cupon_type": "free-shipping"
       }
     ],
-    "shop-Link": "https://www.nike.com",
+    "shop_Link": "https://www.nike.com",
     "category": "Fashion",
     "isSaleOn": true
   },
@@ -40,7 +40,7 @@
         "cupon_type": "percentage"
       }
     ],
-    "shop-Link": "https://www.adidas.com",
+    "shop_Link": "https://www.adidas.com",
     "category": "Fashion",
     "isSaleOn": true
   },
@@ -54,7 +54,7 @@
       {
         "coupon-code": "DARAZ100",
         "description": "Flat ৳100 off on orders above ৳1000",
-        "expiry-date": "2026-06-30",
+        "expiry_date": "2026-06-30",
         "condition": "Minimum order value ৳1000",
         "cupon_type": "flat"
       },
@@ -66,7 +66,7 @@
         "cupon_type": "percentage"
       }
     ],
-    "shop-Link": "https://www.daraz.com.bd",
+    "shop_Link": "https://www.daraz.com.bd",
     "category": "Electronics",
     "isSaleOn": true
   },
@@ -85,7 +85,7 @@
         "cupon_type": "percentage"
       }
     ],
-    "shop-Link": "https://www.foodpanda.com.bd",
+    "shop_Link": "https://www.foodpanda.com.bd",
     "category": "Food & Delivery",
     "isSaleOn": true
   },
@@ -104,7 +104,7 @@
         "cupon_type": "percentage"
       }
     ],
-    "shop-Link": "https://www.samsung.com",
+    "shop_Link": "https://www.samsung.com",
     "category": "Electronics",
     "isSaleOn": false
   },
@@ -123,7 +123,7 @@
         "cupon_type": "percentage"
       }
     ],
-    "shop-Link": "https://www.zara.com",
+    "shop_Link": "https://www.zara.com",
     "category": "Fashion",
     "isSaleOn": true
   },
@@ -142,7 +142,7 @@
         "cupon_type": "flat"
       }
     ],
-    "shop-Link": "https://www.ikea.com",
+    "shop_Link": "https://www.ikea.com",
     "category": "Home & Furniture",
     "isSaleOn": false
   },
